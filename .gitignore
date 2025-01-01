@@ -2,10 +2,12 @@
 .DS_Store
 *.local
 *.log*
-.env
+
 # Dist
 node_modules
 dist/
+.env
+
 
 # IDE
 .vscode/*
