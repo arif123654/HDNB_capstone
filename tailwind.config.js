@@ -1,13 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   darkMode: ["class"],
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["app/**/*.{ts,tsx}", "components/**/*.{ts,tsx}"],
   theme: {
     extend: {
-      
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -50,5 +46,5 @@ export default {
       },
     },
   },
-  plugins: [[require("tailwindcss-animate")]],
+  plugins: [require("tailwindcss-animate")],
 }
