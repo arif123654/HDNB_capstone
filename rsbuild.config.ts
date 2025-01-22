@@ -12,6 +12,11 @@ export default defineConfig({
       },
     }),
   ],
+  output: {
+    distPath: {
+      root: 'build'
+    }
+  },
   html: {
     template: './src/index.html'
   },
