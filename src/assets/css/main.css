@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .page-container {
+        @apply max-w-7xl px-5 mx-auto;
+    }
+}
+
+.active {
+    color: #5eead4;
+    font-weight: 700;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
